@@ -1,0 +1,38 @@
+{
+  "project": "NATIVESCRIPT",
+  "slug_source": "GitHub search API exact-name top match (candidates quoted)",
+  "picked_slug": "NativeScript/NativeScript",
+  "search_url": "https://api.github.com/search/repositories?q=nativescript&per_page=5",
+  "search_status": 200,
+  "candidates": [
+    {
+      "full_name": "NativeScript/NativeScript",
+      "stars": 25668,
+      "license": "MIT"
+    },
+    {
+      "full_name": "nativescript-vue/nativescript-vue",
+      "stars": 6467,
+      "license": "MIT"
+    },
+    {
+      "full_name": "EddyVerbruggen/nativescript-plugin-firebase",
+      "stars": 1002,
+      "license": "MIT"
+    },
+    {
+      "full_name": "NativeScript/nativescript-angular",
+      "stars": 1220,
+      "license": "Apache-2.0"
+    },
+    {
+      "full_name": "NativeScript/nativescript-cli",
+      "stars": 1053,
+      "license": "Apache-2.0"
+    }
+  ],
+  "commit_url": "https://api.github.com/repos/NativeScript/NativeScript/commits/main",
+  "commit_status": 200,
+  "default_branch": null,
+  "commit_response_excerpt": "{\"sha\": \"31ce155ff7d338eddb6afdc3fa792715b646e6e1\", \"commit\": {\"message\": \"chore(release): publish\\n\\n- project: vite 8.0.18\", \"committer_date\": \"2026-10-05T17:03:54Z\"}}"
+}
