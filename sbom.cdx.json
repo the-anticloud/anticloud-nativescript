@@ -1,0 +1,124 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:28a73812-0d0f-5498-a101-e5e29b6d40a0",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T12:48:45Z",
+  "component": {
+   "type": "application",
+   "name": "NATIVESCRIPT",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/NATIVESCRIPT@83b357604d34",
+   "purl": "pkg:generic/anticloud/NATIVESCRIPT@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@nativescript/core",
+   "version": "file:../../packages/core",
+   "purl": "pkg:npm/@nativescript/core@file:../../packages/core",
+   "bom-ref": "npm/@nativescript/core@file:../../packages/core"
+  },
+  {
+   "type": "library",
+   "name": "@nativescript/imagepicker",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/@nativescript/imagepicker@^4.1.0",
+   "bom-ref": "npm/@nativescript/imagepicker@^4.1.0"
+  },
+  {
+   "type": "library",
+   "name": "nativescript-theme-core",
+   "version": "file:../../node_modules/nativescript-theme-core",
+   "purl": "pkg:npm/nativescript-theme-core@file:../../node_modules/nativescript-theme-core",
+   "bom-ref": "npm/nativescript-theme-core@file:../../node_modules/nativescript-theme-core"
+  },
+  {
+   "type": "library",
+   "name": "@valor/nativescript-websockets",
+   "version": "file:../../node_modules/@valor/nativescript-websockets",
+   "purl": "pkg:npm/@valor/nativescript-websockets@file:../../node_modules/@valor/nativescript-websockets",
+   "bom-ref": "npm/@valor/nativescript-websockets@file:../../node_modules/@valor/nativescript-websockets"
+  },
+  {
+   "type": "library",
+   "name": "@nativescript/android",
+   "version": "9.1.1",
+   "purl": "pkg:npm/@nativescript/android@9.1.1",
+   "bom-ref": "npm/@nativescript/android@9.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@nativescript/ios",
+   "version": "9.1.0-alpha.6",
+   "purl": "pkg:npm/@nativescript/ios@9.1.0-alpha.6",
+   "bom-ref": "npm/@nativescript/ios@9.1.0-alpha.6"
+  },
+  {
+   "type": "library",
+   "name": "@nativescript/visionos",
+   "version": "~9.0.0",
+   "purl": "pkg:npm/@nativescript/visionos@~9.0.0",
+   "bom-ref": "npm/@nativescript/visionos@~9.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@nativescript/vite",
+   "version": "file:../../dist/packages/vite",
+   "purl": "pkg:npm/@nativescript/vite@file:../../dist/packages/vite",
+   "bom-ref": "npm/@nativescript/vite@file:../../dist/packages/vite"
+  },
+  {
+   "type": "library",
+   "name": "@nativescript/webpack",
+   "version": "file:../../dist/packages/webpack5",
+   "purl": "pkg:npm/@nativescript/webpack@file:../../dist/packages/webpack5",
+   "bom-ref": "npm/@nativescript/webpack@file:../../dist/packages/webpack5"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "~5.9.3",
+   "purl": "pkg:npm/typescript@~5.9.3",
+   "bom-ref": "npm/typescript@~5.9.3"
+  },
+  {
+   "type": "library",
+   "name": "circular-dependency-plugin",
+   "version": "^5.2.2",
+   "purl": "pkg:npm/circular-dependency-plugin@^5.2.2",
+   "bom-ref": "npm/circular-dependency-plugin@^5.2.2"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
